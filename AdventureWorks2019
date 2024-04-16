@@ -1,0 +1,12 @@
+--Intro to SQL
+select top (10)
+  [JobTitle],
+  [HireDate]
+from [HumanResources].[Employee]
+--Aliasing Columns
+  [JobTitle] AS JobT
+  JobT = [JobTitle]
+  [1 Job Title] = [JobTitle]
+--Selecting Custom Values
+  Select [My Number] = 1
+  Select [My Name] = 'Sal'
